@@ -1,0 +1,7 @@
+{
+  "name": "JobSearch",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

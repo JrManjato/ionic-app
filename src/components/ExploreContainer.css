@@ -1,0 +1,111 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.App {
+  margin-top: 50px;
+}
+
+.card_item {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+  overflow-wrap: normal;
+}
+
+.logo {
+  font-family: 'Roboto Medium', sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 40px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 70px;
+  background-color: #4d7701;
+}
+
+.job_item {
+  width: 75%;
+  inline-size: 75%;
+  overflow-wrap: break-word;
+}
+
+.title {
+  font-family: 'Roboto Light', sans-serif;
+  color:#f46500;
+  font-size: 18px;
+}
+
+.company {
+  margin-top: -5px;
+  color: #9e8d8f;
+  font-size: 16px;
+}
+
+.contrat {
+  margin-left: 25px;
+  color: #4d7701;
+  font-weight: 800;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.description {
+  margin-top: -5px;
+  color: #242424;
+  font-size: 13px;
+}
+
+.date_lim {
+  color: rgb(235, 5, 44);
+  font-size: 12px;
+}
+
+input[value="Plus d'info..."] {
+  font-size: 13px;
+  background-color: #0275d8;
+  color: #f4f0f4;
+  width: 100px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  border: 1px solid white;
+  border-radius: 7px;
+  float: right;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.increment{
+  background-color: #0275d8;
+  border-radius: 7px;
+  color: #ffff;
+  height: 24px;
+}
+.decrement{
+  background-color: #d9534f;
+  border-radius: 7px;
+  color: #ffff;
+  height: 24px;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 20%;
+    height: 60px;
+    background-color: #0275d8;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 60px;
+    color: #f4f0f4;
+  }
+}

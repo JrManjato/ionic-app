@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "JobSearch",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

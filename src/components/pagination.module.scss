@@ -1,0 +1,38 @@
+// pagination.module.scss
+// Colour variables used: $primary, $white
+.paginationWrapper {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.separator {
+  width: 0.5rem;
+  margin: 0 0.25rem;
+}
+.pageItem {
+  background: transparent;
+  border: none;
+  height: 2.2rem;
+  width: 2.2rem;
+  margin: 0 0.25rem;
+  //border-radius: 50%;
+  font-weight: 600;
+  color: #4d7701;
+&:hover {
+    text-decoration: underline;
+  }
+&:focus {
+    outline: 0;
+  }
+}
+.active {
+  background-color: #f46500;
+  color: black;
+}
+.sides {
+  box-shadow: transparent 0px 0px 0px 1px, transparent 0px 0px 0px 4px, rgba(0, 0, 0, 0.18) 0px 2px 4px;
+&:hover {
+    text-decoration: none;
+    box-shadow: transparent 0px 0px 0px 1px, transparent 0px 0px 0px 4px, rgba(0, 0, 0, 0.12) 0px 6px 16px;
+  }
+}
